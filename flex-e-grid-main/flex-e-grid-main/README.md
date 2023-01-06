@@ -1,3 +1,6 @@
+João pedro Rabelo Melo Ferreira
+
+
 # Guia de estilos
 
 Toda a estilização que será usada no projeto dentro do figma.
