@@ -10,13 +10,80 @@
     <link rel="stylesheet"  href="assets/css/reset.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap">
     <link rel="stylesheet" href="assets/css/estilos.css">
+    
 </head>
 <body>
     <header class="cabecalho">
-        <button class="cabecalho-menu">Menu</button>
+        <button class="cabecalho-menu" aria-label="Menu"><i></i></button>
         <img src="assets/img/logo.svg" alt="Logotipo da HZC" class="cabecalho-logo">
-        <button class="cabecalho-notificacao">Notificação</button>
+        <button class="cabecalho-notificacao" aria-label="Notificacao"><i></i></button>
     </header>
+    <nav class="menu-lateral menu-lateral-ativo">
+        <img src="assets/img/logo.svg" alt="Logotipo" class="menu-lateral-logo">
+        <a href="#" class="menu-lateral-link menu-lateral-link-inicio menu-lateral-link-ativo">Inicios</a>
+        <a href="#" class="menu-lateral-link menu-lateral-link-videos">Videos</a>
+        <a href="#" class="menu-lateral-link menu-lateral-link-picos">Picos</a>
+        <a href="#" class="menu-lateral-link menu-lateral-link-integrantes">Integrantes</a>
+        <a href="#" class="menu-lateral-link menu-lateral-link-camisas">Camisas</a>
+        <a href="#" class="menu-lateral-link menu-lateral-link-pinturas">Pinturas</a>
+    </nav>
+    <main class="principal">
+        <h2 class="titulo-pagina">Inicio</h2>
+        <article class="cartao">
+            <img src="assets/img/banner-mobile_1.png" alt="Banner Mobile do Cartao" class="cartao-imagem">
+            <div class="cartao-conteudo">
+                <p class="cartao-destaque">Video em Destaque</p>
+                <h3 class="cartao-titulo">HZC - Título</h3>
+                <p class="cartao-perfil">Video em Destaque</p>
+                <p class="cartao-info cartao-info-tempo">33 Minutos</p>
+                <p class="cartao-info cartao-info-visualizacao">33 Visualizacoes</p>
+                <butao class="cartao-botao cartao-botao-destaque cartao-botao-play">Assitir Agora</butao>
+            </div>
+
+        </article>
+        <section class="secao">
+            <h3 class="titulo-secao">Videos mais vistos</h3>
+            <article class="cartao">
+                <img src="assets/img/banner-mobile_1.png" alt="Banner Mobile do Cartao" class="cartao-imagem">
+                <div class="cartao-conteudo">
+                    <p class="cartao-perfil">Video em Destaque</p>
+                    <p class="cartao-info cartao-info-tempo">33 Minutos</p>
+                    <butao class="cartao-botao  cartao-botao-play" aria-label="Assitir Agora"></butao>
+                </div>
     
+            </article>
+        </section>
+        
+    </article>
+    <section class="secao">
+        <h3 class="titulo-secao">Videos mais vistos</h3>
+        <article class="cartao">
+            <img src="assets/img/banner-mobile_1.png" alt="Banner Mobile do Cartao" class="cartao-imagem">
+            <div class="cartao-conteudo">
+                <p class="cartao-perfil">Video em Destaque</p>
+                <p class="cartao-info cartao-info-tempo">33 Minutos</p>
+                <butao class="cartao-botao  cartao-botao-play" aria-label="Assitir Agora"></butao>
+            </div>
+
+        </article>
+    </section>
+    
+</article>
+<section class="secao">
+    <h3 class="titulo-secao">Videos mais vistos</h3>
+    <article class="cartao">
+        <img src="assets/img/banner-mobile_1.png" alt="Banner Mobile do Cartao" class="cartao-imagem">
+        <div class="cartao-conteudo">
+            <p class="cartao-perfil">Video em Destaque</p>
+            <p class="cartao-info cartao-info-tempo">33 Minutos</p>
+            <butao class="cartao-botao  cartao-botao-play" aria-label="Assitir Agora"></butao>
+        </div>
+
+    </article>
+</section>
+
+
+    </main>
+    <script src="index.js"></script>
 </body>
 </html>
